@@ -1,0 +1,238 @@
+
+.section1{
+     background-image:url(img/5.jpg) ;
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     padding-top: 70px;
+     padding-bottom: 30px;
+    
+
+}
+
+
+
+
+.header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      position: fixed;
+      
+}  
+.logo{
+ 
+    padding-bottom: 100px;
+    padding-right: 40px;
+    padding-top: 0;
+
+}
+.nav {
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    padding-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+
+}
+.nav a{
+   text-decoration: underline;
+   color: white;
+   font-weight: 700;
+
+}
+
+.section2 {
+     background-image: url(img/CAR2.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     
+    }
+.order-btn{
+    background-color: #3e6ae1;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 75px;
+    border-radius: 10px;
+    border: none;
+}
+    .demo-driv{
+        background-color: white;
+        color: black;
+        font-size: 16px;
+        padding: 12px 75px;
+        border-radius: 10px;
+        border: none;
+        font-weight: 600;    
+        
+}
+
+
+.section2 .button{
+    padding-top: 750px;
+    padding-bottom: 800px;
+    justify-content: center;
+    padding-left: 400px;
+       
+}
+.section3{
+    background-image:url(img/BMWX7.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 30px;   
+
+}
+.order-btn2{
+    background-color: #3e6ae1;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding:15px 75px;
+    border-radius: 10px;
+    border: none;
+} 
+.demo-driv2{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 75px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;    
+}
+.section3 .button2{
+    padding-top: 750px;
+    padding-bottom: 650px;
+    justify-content: center;
+    padding-left: 400px;
+    margin: 0; 
+ }
+.section4{
+    background-image:url(img/BMWUNDER.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 30px;   
+}
+.order-btn3{
+    background-color: #3e6ae1;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding:15px 75px;
+    border-radius: 10px;
+    border: none;
+} 
+.demo-driv3{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 75px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;    
+}
+.section4 .button4{
+    padding-top: 400px;
+    padding-bottom: 950px;
+    justify-content: center;
+    padding-left: 400px;
+    margin: 0; 
+
+
+
+}
+
+.section4 .button4:hover{
+   color: black;
+   
+} 
+
+
+
+*{
+  margin: 0;
+ padding: 0%;
+ box-sizing: border-box;
+
+}
+.container{
+
+    max-width: 1170px;
+    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+ul{
+   list-style: none;
+
+} 
+
+
+
+
+.footer{
+   background-color: rgb(43, 42, 42);
+   padding: 60px 0px;
+
+
+
+}
+.footer-col{
+  width: 25%;
+  padding: 0 20px ;
+
+}
+.footer-col h4{
+     font-size: 18px;
+     color: white;
+     text-transform: capitalize;
+     margin-bottom: 10px;
+     position: relative;
+    }
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #979797;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+   color: #cacaca;
+   padding-left: 8px;
+   
+}
+
+.footer-col h4::before{
+   content:"" ;
+   position: absolute;
+   left: 0;
+   bottom: -5px;
+   height: 2px;
+   box-sizing: border-box;
+   width: 100px;
+   background-color: red;
+}
+
